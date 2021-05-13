@@ -80,3 +80,107 @@ body, html{
 #servicos a.destaque .img-container img{
     max-height: 160px;
 }
+
+#clientes a.link-cliente{
+    padding: 0px 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: ease-out all 0.2s;
+}
+
+#clientes a.link-cliente:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+}
+
+#clientes a.link-cliente img{
+    filter: grayscale(100%);
+    max-height: 70px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#clientes a.link-cliente:hover img{
+    filter: none;
+    opacity: 1;
+}
+
+#clientes .cliente-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background: var(--light);
+    border-radius: 10px;
+}
+
+#clientes .cliente-text .imagem{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    color: #b4b4b4;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#clientes .cliente-text .imagem span{
+    color: var(--secondary);
+    font-size: 110px;
+    line-height: 110px;
+    letter-spacing: -10px;
+    font-weight: 900;
+    display: block;
+}
+
+#clientes .cliente-text .telefone{
+    display: flex;
+    font-size: 14px;
+    color: #b4b4b4;
+}
+
+#clientes .cliente-text .telefone span{
+    font-size: 25px;
+    color: #797979;
+    font-weight: 900;
+    display: block;
+}
+
+#servicosRecentes .badge{
+    font-weight: 400;
+}
+
+#servicosRecentes .element-item img{
+    border-radius: 10px;
+    transition: all ease-out 0.2s;
+}
+
+#servicosRecentes .element-item img:hover{
+    box-shadow: 0 0 30px 0 rgba(0,0,0, 0.4);
+}
+
+#servicosRecentes .button-group{
+    margin-bottom: 30px;
+}
+
+#servicosRecentes .button-group button{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
+
+#servicosRecentes .button-group button + button{
+    margin-left: 30px;
+}
+
+#servicosRecentes .button-group button.active{
+    color: var(--primary);
+}
