@@ -9,6 +9,13 @@ body, html{
     transition: background ease-out 0.2s;
 }
 
+#header.active{
+    position: fixed;
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
 #header .navbar-collapse{
     width: auto;
 }
@@ -39,4 +46,37 @@ body, html{
 
 #slider h4{
     font-size: 18px;
+}
+
+
+#servicos a.destaque{
+    display: block;
+    background: var(--light);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover{
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+}
+
+#servicos p{
+    color: var(--dark);
+}
+
+#servicos a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img{
+    max-height: 160px;
 }
