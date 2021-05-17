@@ -26,6 +26,6 @@ Front End para desktop vídeo:
 📧 **[wesley_wisch@hotmail.com](mailto:wesley_wisch@hotmail.com)**
 
 ##  ⚠️  Licença
-Esse projeto esta sobre a licença Mit. veja: [LICENSE](https://github.com/wesleywisch/Repositorio-HTML-CSS-JavaScript/blob/main/LICENSE)
+Esse projeto esta sobre a licença Mit. veja: [LICENSE](https://github.com/wesleywisch/Repositorio-Bootstrap/blob/main/LICENSE)
 
 ![LICENSE-MIT2](https://user-images.githubusercontent.com/79159487/114733599-7c478980-9d11-11eb-98da-262603bc1c13.png)
