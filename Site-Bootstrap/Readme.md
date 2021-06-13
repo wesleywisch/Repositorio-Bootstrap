@@ -15,6 +15,7 @@ Front End para desktop vídeo:
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 - jQuery
 
 -  ####  Possui suporte de responsividade.
